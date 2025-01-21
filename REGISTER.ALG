@@ -4,6 +4,7 @@ Algoritmo "Register"
 // Description: here we build a cliente register
 // Developer: Mateus Marrero
 // Date: 10/01/2025
+// Nome - idade - endereço -
 Var
  clientName: caractere
  currentDay, currentMonth, bornYear, result: inteiro

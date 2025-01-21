@@ -1,18 +1,18 @@
 Algoritmo "Calculoaverage2"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Class:Programming Logic
-// Teacher:Antonio Carlos Nicolodi
+// Disciplina: [Linguagem e Lógica de Programação]
+// Teacher: Antonio Carlos Nicolodi
+// Class: Programming Logic
+// Teacher: Antonio Carlos Nicolodi
 // Description: here we build a cliente register
 // Developer: Mateus Marrero
-// Date: 10/01/2025
+// Date: 22/01/2025
 var
-// Seção de Declarações
+
    result1, result2, result3, result4, result5 : Inteiro
    average: Real
    student: Caracter
 Inicio
-// Seção dos Comandos
+
    Escreva ("Type the first name of student ")
    Leia (student)
    Escreva ("Type the first result: ")
@@ -31,8 +31,8 @@ Inicio
    Escreval ("A Média final é: ", average)
    Escreval (" ")
    Se average >= 7 entao
-      Escreval(" O student ",student, " approved !")
+      Escreval(" The student as ",student, " approved !")
    Senao
-      Escreval(" O student ",student, " failed")
+      Escreval(" The student as ",student, " failed")
    fimse
 Fimalgoritmo
