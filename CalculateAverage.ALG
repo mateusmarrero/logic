@@ -11,6 +11,7 @@ var
    result1, result2, result3, result4, result5 : Inteiro
    average: Real
    student: Caracter
+   situação: Caracter
 Inicio
 
    Escreva ("Type the first name of student ")
@@ -23,16 +24,20 @@ Inicio
    Leia (result3)
    Escreva ("Type the fourth  result  : ")
    Leia (result4)
-   Escreva ("Type the fifth result   : ")
-   Leia (result5)
-   average <- (result1+ result2+ result3+ result4+ result5) / 5
+   average <- (result1+ result2+ result3+ result4) / 4
    Escreval (" ===================== ")
    Escreval (" ")
    Escreval ("The final average is: ", average)
    Escreval (" ")
+   Se average = 5 entao
+   Escreval(" The student as ",student, " Recovery !"
+   fimse
    Se average >= 7 entao
       Escreval(" The student as ",student, " approved !")
    Senao
       Escreval(" The student as ",student, " failed")
+      se ( ( average  >= 6 ) e ( average < 7 ) ) entao
+      situacção <-- "Recovery"
+      fimse
    fimse
 Fimalgoritmo
