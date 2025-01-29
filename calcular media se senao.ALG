@@ -5,7 +5,6 @@ Algoritmo "semnome"
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/01/2025
 Var
-// Seção de Declarações das variáveis 
 
 nota1, nota2, nota3, nota4 , media: real
 nome, situacao: caractere
